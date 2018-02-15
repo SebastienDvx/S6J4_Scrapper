@@ -245,6 +245,7 @@ DEPENDENCIES
   jquery-rails
   letter_opener
   listen
+  nokogiri
   pg (= 0.20.0)
   poltergeist
   pry-byebug

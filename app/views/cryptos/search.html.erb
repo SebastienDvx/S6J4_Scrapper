@@ -1,0 +1,28 @@
+<!--
+<table>
+ <thead>
+   <tr>
+     <th>Nom</th>
+     <th>Prix</th>
+     <th>Volume</th>
+     <th>Market Cap</th>
+     <th>evol 24h</th>
+   </tr>
+ </thead>
+ <tbody>
+   <tr>
+     <td><%= @infos["BTC"][:name] %></td>
+     <td><%= @infos["BTC"][:price] %></td>
+     <td><%= @infos["BTC"][:volume] %></td>
+     <td><%= @infos["BTC"][:market_cap] %></td>
+     <td><%= @infos["BTC"][:evol_24h] %></td>
+   </tr>
+ </tbody>
+</table> -->
+
+
+Nom        : <%= @infos["BTC"][:name] %><br>
+Prix       : <%= @infos["BTC"][:price] %><br>
+Volume     : <%= @infos["BTC"][:volume] %><br>
+Market Cap : <%= @infos["BTC"][:market_cap] %><br>
+evol 24h   : <%= @infos["BTC"][:evol_24h] %><br>

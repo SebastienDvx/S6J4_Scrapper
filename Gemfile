@@ -4,6 +4,8 @@ source 'https://rubygems.org'
 # gem 'devise'
 #gem 'pundit'
 
+# gem 'open-uri'
+gem 'nokogiri'
 gem 'dotenv'
 gem 'rails'
 gem 'puma'
